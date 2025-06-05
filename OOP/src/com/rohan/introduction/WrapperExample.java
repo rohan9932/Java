@@ -36,7 +36,7 @@ class A {
         this.name = name;
     }
 
-    @Override
+    @Override //this is called annotation
     protected void finalize() throws Throwable {
         System.out.println("finalize called and object is destroyed");
     }
